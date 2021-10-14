@@ -85,7 +85,7 @@ if (score >= 90){
 ////////// PROBLEM 6 //////////
 
 // Do not edit the code below.
-var myFavoriteNumbers = [4,8,12,16,20,24, 1, 2, 3, 4];
+var myFavoriteNumbers = [4,8,12,16,20,24];
 // Do not edit the code above.
 
 /*
@@ -120,6 +120,11 @@ var listOfNumbers = [1,2,3,4,5,6,7,8,9,10,11,12];
 
 //Code Here
 
+for (let i = 0; i < listOfNumbers.length; i++){
+  if (listOfNumbers[i] % 3 === 0){
+    console.log(`${listOfNumbers[i]} is divisible by 3`)
+  }
+}
 
 ////////// PROBLEM 9 //////////
 // Do not edit the code below.
@@ -132,6 +137,9 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
 
 //Code Here
 
+for (let i = letters.length; i >=0; i--){
+  console.log(letters[i])
+}
 
 ////////// Advanced Problems //////////
 
@@ -153,6 +161,18 @@ If the letter grade is not one of the above letters, console.log 'Not an eligibl
 */
 
 //Code Here
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
