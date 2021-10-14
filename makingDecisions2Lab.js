@@ -68,13 +68,24 @@ var score = 74
 
 //Code Here
 
+if (score >= 90){
+  console.log("A")
+} else if (score <= 89 && score >= 80){
+  console.log("B")
+} else if (score <= 79 && score >= 70) {
+  console.log("C")
+} else if (score <= 69 && score >= 60) {
+  console.log("C")
+} else {
+  console.log("F")
+}
 
 ////////// Intermediate Problems //////////
 
 ////////// PROBLEM 6 //////////
 
 // Do not edit the code below.
-var myFavoriteNumbers = [4,8,12,16,20,24];
+var myFavoriteNumbers = [4,8,12,16,20,24, 1, 2, 3, 4];
 // Do not edit the code above.
 
 /*
@@ -83,6 +94,7 @@ var myFavoriteNumbers = [4,8,12,16,20,24];
 
 //Code Here
 
+let someNum = myFavoriteNumbers[4]
 
 ////////// PROBLEM 7 //////////
 
@@ -91,6 +103,12 @@ var myFavoriteNumbers = [4,8,12,16,20,24];
 
 //Code Here
 
+if (myFavoriteNumbers.length < 7){
+  console.log("There are not enough elements in this array")
+} else if (myFavoriteNumbers.length > 7) {
+  someNum = myFavoriteNumbers[6]
+  console.log(someNum)
+}
 
 ////////// PROBLEM 8 //////////
 
