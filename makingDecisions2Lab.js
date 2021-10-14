@@ -219,3 +219,16 @@ for (let i = 0; i <= 100; i++){
   console.log(i)
 } 
 }
+
+
+// PRACTICE WITH FOR LOOPS
+
+let myArray = ["Casper", "Becky", "Mom", "Dad"]
+
+for (let element of myArray){
+  console.log(element)
+}
+
+for (let i = 0; i < myArray.length - 1; i++){
+  console.log(myArray[i])
+}
